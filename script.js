@@ -19,10 +19,21 @@ angular.module('angMod').controller('angoller', ['$scope',
 				$scope.exclamationPoint = '!'
 			}
 		}
-		$scope.confirmBox = function (event) {
-			var onclick = confirm("Do you wish to proceed?");
-				if (onclick == false) {
-					console.log(event.preventDefault())
+		$scope.onClick1 = true;
+		$scope.onClick2 = true;
+		$scope.confirmBox = function (event, id) {
+			if (id == 'link1') {
+				$scope.onClick1 = confirm("Do you wish to proceed?");
+				if ($scope.onClick1 == false) {
+					console.log(event.preventDefault());
 				}
+			}
+			else {
+				$scope.onClick2 = confirm("Do you wish to proceed?");
+				if ($scope.onClick2 == false) {
+					console.log(event.preventDefault());
+				}
+			}
 		}
+
 	}])
