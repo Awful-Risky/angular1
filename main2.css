@@ -2,6 +2,27 @@
 	list-style: none;
 }
 
-.peachpuff-text{
+.peachpuff-text {
 	color : peachpuff;
 }
+
+.divCenter {
+	height: 100vmin;
+	width: 100v;
+}
+
+.buttonBigger {
+	display: block;
+	margin: auto;
+	height: 100px;
+	width: 30%;
+	position: relative;
+	top: 50%;
+}
+
+
+
+
+
+
+
