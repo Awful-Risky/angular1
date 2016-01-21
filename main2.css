@@ -20,6 +20,24 @@
 	top: 50%;
 }
 
+.divStyle {
+	position: fixed;
+	z-index: 10;
+	height: 80%;
+	width: 80%;
+	background-image: url('crowdspar.png');
+	background-size: contain;
+	border-style: solid; 
+	border-color: green;
+    right: 0;
+    left: 0;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 10%;
+}
+
+
+
 
 
 

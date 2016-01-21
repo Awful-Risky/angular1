@@ -41,8 +41,11 @@
 	
 	<div>
 		
-		<div class="divCenter">	
-			<button class="buttonBigger">Giant Button</button>
+		<div class="divCenter">
+			<div ng-show="showDiv" class="divStyle">
+				<button ng-click="showMe()">"Close Pop Up"</button>
+			</div>	
+			<button class="buttonBigger" ng-click="showMe()">Giant Button</button>
 		</div>
 
 	</div>

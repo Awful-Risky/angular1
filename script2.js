@@ -35,5 +35,9 @@ angular.module('angMod').controller('angoller', ['$scope',
 				}
 			}
 		}
-
+		
+		$scope.showDiv = false;
+		$scope.showMe = function () {
+			$scope.showDiv = !$scope.showDiv;
+		}
 	}])
